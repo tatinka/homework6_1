@@ -1,0 +1,22 @@
+body{
+    background: #b8b7b499;
+}
+
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 20px ;
+}
+.item{
+    height: 540px;
+    background: #ffffff;
+}
+.item_big{
+    grid-column: 1 / -2;
+    background-image: url(/img/Layer\ 1.png);
+}
+.item_text{
+    padding: 24px;
+}
