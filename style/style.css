@@ -15,7 +15,6 @@ body{
 }
 .item_big{
     grid-column: 1 / -2;
-    background-image: url(/img/Layer1.png);
 }
 .item_text{
     padding: 24px;
